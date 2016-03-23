@@ -1,7 +1,7 @@
 # Dr_Quine
 ## Projet Dr_Quine | Projet Algorithme | Tier 2 | Ecole 42
 ### Résumé:<br>
-* Ce projet consiste à vous faire découvrir le Théorème de récursion de Kleene ! *
+*Ce projet consiste à vous faire découvrir le Théorème de récursion de Kleene !*
 
 ## Objectifs
 *Ce projet vous invite à vous confronter au principe d’auto-reproduction et des problématiques
