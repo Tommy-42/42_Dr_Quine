@@ -8,4 +8,4 @@
 qui en découlent. Il s’agit d’une parfaite introduction aux projets plus complexes,
 notamment les projets malware.<br><br>
 Pour les curieux, je vous conseille vivement de regarder tout ce qui est lié aux points
-fixes !
+fixes !*
