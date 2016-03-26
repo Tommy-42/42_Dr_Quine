@@ -1,0 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define REPLICA(s) system(s);
+#define FT(x) int main() { if(x < 0) exit; char name[] = "./Sully_X"; name[8] = x + '0'; char d_name[] = "./Sully_X.c"; d_name[8] = x + '0'; FILE *fp = fopen(d_name,"w"); char *c="#include <stdio.h>%c#include <stdlib.h>%c#define REPLICA(s) system(s);%c#define FT(x) int main() { if(x < 0) exit; char name[] = %c./Sully_X%c; name[8] = x + %c0%c; char d_name[] = %c./Sully_X.c%c; d_name[8] = x + %c0%c; FILE *fp = fopen(d_name,%cw%c); char *c=%c%s%c;fprintf(fp,c,10,10,10,34,34,39,39,34,34,39,39,34,34,34,c,34,34,34,39,39,39,39,10,(x-1),10); fclose(fp); char compil[] = %cclang -Wall -Werror -Wextra Sully_X.c -o Sully_X%c; compil[34] = x + %c0%c; compil[47] = x + %c0%c; REPLICA(compil); system(name); }%cFT(%d)%c";fprintf(fp,c,10,10,10,34,34,39,39,34,34,39,39,34,34,34,c,34,34,34,39,39,39,39,10,(x-1),10); fclose(fp); char compil[] = "clang -Wall -Werror -Wextra Sully_X.c -o Sully_X"; compil[34] = x + '0'; compil[47] = x + '0'; REPLICA(compil); system(name); }
+FT(5)
